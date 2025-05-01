@@ -1,0 +1,459 @@
+allow-lan: true
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  nameserver:
+  - 8.8.8.8
+  - 1.1.1.1
+log-level: info
+mixed-port: 7890
+mode: rule
+proxies:
+- down: 600
+  name: '[天空加速器] 🇭🇰 香港 01'
+  obfs: salamander
+  obfs-password: ZDMwYmM5ZjYyZDVmMTk0Ng==
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 543
+  server: hktv01.outleft-hy.xyz
+  skip-cert-verify: false
+  sni: hktv01.outleft-hy.xyz
+  type: hysteria2
+  up: 600
+- down: 1000
+  name: '[天空加速器] 🇭🇰 香港 02'
+  obfs: salamander
+  obfs-password: YTRkMDE1MzQ4NmFlNmQxNg==
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 5002
+  server: hktv02.outleft-hy.xyz
+  skip-cert-verify: false
+  sni: hktv02.outleft-hy.xyz
+  type: hysteria2
+  up: 1000
+- down: 1000
+  name: '[天空加速器] 🇭🇰 香港 03'
+  obfs: salamander
+  obfs-password: YjcwMDNiMDhhZWU1OTU4MA==
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 543
+  server: hktv03.outleft-hy.xyz
+  skip-cert-verify: false
+  sni: hktv03.outleft-hy.xyz
+  type: hysteria2
+  up: 1000
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇷🇺 俄罗斯 01'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 630
+  server: neweur.upperlay.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇷🇺 俄罗斯 02'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 631
+  server: neweur.upperlay.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇭🇰 香港 04'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 563
+  server: cnexhk.nesx.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇭🇰 香港 05'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 564
+  server: cnexhk.nesx.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇭🇰 香港 06'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 565
+  server: cnexhk.nesx.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇭🇰 香港 07'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 563
+  server: cmrefhk1.exitlag.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇭🇰 香港 08'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 564
+  server: cmlayer2.exitlag.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇭🇰 香港 09'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 564
+  server: cnrefhk2.exitlag.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇭🇰 香港 10'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 565
+  server: cminit.exitlag.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇭🇰 香港 11'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 563
+  server: cmthkd-d.net-lag.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇭🇰 香港 12'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 564
+  server: cmrefhk1.exitlag.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇭🇰 香港 13'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 566
+  server: cminit.exitlag.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇭🇰 香港 14'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 563
+  server: rcgm.exitlag.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇭🇰 香港 15'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 564
+  server: rcgm.exitlag.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇭🇰 香港 16'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 567
+  server: cminit.exitlag.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇭🇰 香港 17'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 564
+  server: cmthkd-d.net-lag.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇭🇰 香港 18'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 565
+  server: cnrefhk2.exitlag.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇭🇰 香港 19'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 565
+  server: cmlayer2.exitlag.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇭🇰 香港 20'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 565
+  server: cmthkd-d.net-lag.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇭🇰 香港 21'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 562
+  server: shcmzz1hk.upperlay.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇯🇵 日本 01'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 566
+  server: aisalayer-a.upperlay.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇯🇵 日本 02'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 567
+  server: aisalayer-a.upperlay.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇸🇬 新加坡 01'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 568
+  server: aisalayer-a.upperlay.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇸🇬 新加坡 02'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 569
+  server: aisalayer-a.upperlay.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇸🇬 新加坡 03'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 569
+  server: aisalayer-b.upperlay.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇸🇬 新加坡 04'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 570
+  server: aisalayer-b.upperlay.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇸🇬 新加坡 05'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 571
+  server: aisalayer-b.upperlay.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇰🇷 韩国 01'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 570
+  server: aisalayer-a.upperlay.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇺🇸 美国 01'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 571
+  server: usastart-a.upperlay.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇺🇸 美国 02'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 572
+  server: usastart-a.upperlay.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇺🇸 美国 03'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 573
+  server: usastart-a.upperlay.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇺🇸 美国 04'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 574
+  server: usastart-a.upperlay.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇺🇸 美国 05'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 575
+  server: usastart-a.upperlay.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇺🇸 美国 06'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 570
+  server: usastarter-b.inlayer.org
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇺🇸 美国 07'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 571
+  server: usastarter-b.inlayer.org
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇺🇸 美国 08'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 572
+  server: usastarter-b.inlayer.org
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇺🇸 美国 09'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 573
+  server: usastarter-b.inlayer.org
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇺🇸 美国 10'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 574
+  server: usastarter-b.inlayer.org
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🌐 多国 01'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 570
+  server: neweur.upperlay.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇬🇧 英国 01'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 634
+  server: neweur.upperlay.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇬🇧 英国 02'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 635
+  server: neweur.upperlay.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇮🇳 印度 01'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 633
+  server: neweur.upperlay.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇹🇷 土耳其 01'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 636
+  server: neweur.upperlay.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[天空加速器] 🇮🇹 意大利 01'
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  port: 637
+  server: neweur.upperlay.xyz
+  type: ss
+  udp: true
+proxy-groups:
+- interval: 300
+  name: 🌐 自动选择
+  proxies:
+  - '[天空加速器] 🇭🇰 香港 01'
+  - '[天空加速器] 🇭🇰 香港 02'
+  - '[天空加速器] 🇭🇰 香港 03'
+  - '[天空加速器] 🇷🇺 俄罗斯 01'
+  - '[天空加速器] 🇷🇺 俄罗斯 02'
+  - '[天空加速器] 🇭🇰 香港 04'
+  - '[天空加速器] 🇭🇰 香港 05'
+  - '[天空加速器] 🇭🇰 香港 06'
+  - '[天空加速器] 🇭🇰 香港 07'
+  - '[天空加速器] 🇭🇰 香港 08'
+  - '[天空加速器] 🇭🇰 香港 09'
+  - '[天空加速器] 🇭🇰 香港 10'
+  - '[天空加速器] 🇭🇰 香港 11'
+  - '[天空加速器] 🇭🇰 香港 12'
+  - '[天空加速器] 🇭🇰 香港 13'
+  - '[天空加速器] 🇭🇰 香港 14'
+  - '[天空加速器] 🇭🇰 香港 15'
+  - '[天空加速器] 🇭🇰 香港 16'
+  - '[天空加速器] 🇭🇰 香港 17'
+  - '[天空加速器] 🇭🇰 香港 18'
+  - '[天空加速器] 🇭🇰 香港 19'
+  - '[天空加速器] 🇭🇰 香港 20'
+  - '[天空加速器] 🇭🇰 香港 21'
+  - '[天空加速器] 🇯🇵 日本 01'
+  - '[天空加速器] 🇯🇵 日本 02'
+  - '[天空加速器] 🇸🇬 新加坡 01'
+  - '[天空加速器] 🇸🇬 新加坡 02'
+  - '[天空加速器] 🇸🇬 新加坡 03'
+  - '[天空加速器] 🇸🇬 新加坡 04'
+  - '[天空加速器] 🇸🇬 新加坡 05'
+  - '[天空加速器] 🇰🇷 韩国 01'
+  - '[天空加速器] 🇺🇸 美国 01'
+  - '[天空加速器] 🇺🇸 美国 02'
+  - '[天空加速器] 🇺🇸 美国 03'
+  - '[天空加速器] 🇺🇸 美国 04'
+  - '[天空加速器] 🇺🇸 美国 05'
+  - '[天空加速器] 🇺🇸 美国 06'
+  - '[天空加速器] 🇺🇸 美国 07'
+  - '[天空加速器] 🇺🇸 美国 08'
+  - '[天空加速器] 🇺🇸 美国 09'
+  - '[天空加速器] 🇺🇸 美国 10'
+  - '[天空加速器] 🌐 多国 01'
+  - '[天空加速器] 🇬🇧 英国 01'
+  - '[天空加速器] 🇬🇧 英国 02'
+  - '[天空加速器] 🇮🇳 印度 01'
+  - '[天空加速器] 🇹🇷 土耳其 01'
+  - '[天空加速器] 🇮🇹 意大利 01'
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- name: 🚀 手动切换
+  proxies:
+  - '[天空加速器] 🇭🇰 香港 01'
+  - '[天空加速器] 🇭🇰 香港 02'
+  - '[天空加速器] 🇭🇰 香港 03'
+  - '[天空加速器] 🇷🇺 俄罗斯 01'
+  - '[天空加速器] 🇷🇺 俄罗斯 02'
+  - '[天空加速器] 🇭🇰 香港 04'
+  - '[天空加速器] 🇭🇰 香港 05'
+  - '[天空加速器] 🇭🇰 香港 06'
+  - '[天空加速器] 🇭🇰 香港 07'
+  - '[天空加速器] 🇭🇰 香港 08'
+  - '[天空加速器] 🇭🇰 香港 09'
+  - '[天空加速器] 🇭🇰 香港 10'
+  - '[天空加速器] 🇭🇰 香港 11'
+  - '[天空加速器] 🇭🇰 香港 12'
+  - '[天空加速器] 🇭🇰 香港 13'
+  - '[天空加速器] 🇭🇰 香港 14'
+  - '[天空加速器] 🇭🇰 香港 15'
+  - '[天空加速器] 🇭🇰 香港 16'
+  - '[天空加速器] 🇭🇰 香港 17'
+  - '[天空加速器] 🇭🇰 香港 18'
+  - '[天空加速器] 🇭🇰 香港 19'
+  - '[天空加速器] 🇭🇰 香港 20'
+  - '[天空加速器] 🇭🇰 香港 21'
+  - '[天空加速器] 🇯🇵 日本 01'
+  - '[天空加速器] 🇯🇵 日本 02'
+  - '[天空加速器] 🇸🇬 新加坡 01'
+  - '[天空加速器] 🇸🇬 新加坡 02'
+  - '[天空加速器] 🇸🇬 新加坡 03'
+  - '[天空加速器] 🇸🇬 新加坡 04'
+  - '[天空加速器] 🇸🇬 新加坡 05'
+  - '[天空加速器] 🇰🇷 韩国 01'
+  - '[天空加速器] 🇺🇸 美国 01'
+  - '[天空加速器] 🇺🇸 美国 02'
+  - '[天空加速器] 🇺🇸 美国 03'
+  - '[天空加速器] 🇺🇸 美国 04'
+  - '[天空加速器] 🇺🇸 美国 05'
+  - '[天空加速器] 🇺🇸 美国 06'
+  - '[天空加速器] 🇺🇸 美国 07'
+  - '[天空加速器] 🇺🇸 美国 08'
+  - '[天空加速器] 🇺🇸 美国 09'
+  - '[天空加速器] 🇺🇸 美国 10'
+  - '[天空加速器] 🌐 多国 01'
+  - '[天空加速器] 🇬🇧 英国 01'
+  - '[天空加速器] 🇬🇧 英国 02'
+  - '[天空加速器] 🇮🇳 印度 01'
+  - '[天空加速器] 🇹🇷 土耳其 01'
+  - '[天空加速器] 🇮🇹 意大利 01'
+  type: select
+rules:
+- MATCH,🌐 自动选择
+
+# 用户: sglr 到期: 2025-05-31
