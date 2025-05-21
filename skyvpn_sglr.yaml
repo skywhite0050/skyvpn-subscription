@@ -402,7 +402,7 @@ proxy-groups:
   - '[天空加速器] 🇹🇷 土耳其 01'
   - '[天空加速器] 🇮🇹 意大利 01'
   url: http://www.gstatic.com/generate_204
-  interval: 300
+  interval: 800
 - name: 🚀 手动切换
   type: select
   proxies:
