@@ -25,8 +25,8 @@ proxies:
   server: hktv02.outleft-hy.xyz
   port: 5002
   sni: hktv02.outleft-hy.xyz
-  up: 1000
-  down: 1000
+  up: 700
+  down: 700
   skip-cert-verify: false
   password: 34723e50-5154-487e-9d5c-d34735d5b05b
   obfs: salamander
@@ -36,8 +36,19 @@ proxies:
   server: hktv03.outleft-hy.xyz
   port: 543
   sni: hktv03.outleft-hy.xyz
-  up: 1000
-  down: 1000
+  up: 700
+  down: 700
+  skip-cert-verify: false
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  obfs: salamander
+  obfs-password: YjcwMDNiMDhhZWU1OTU4MA==
+- name: '[天空加速器] 🇭🇰 香港 04'
+  type: hysteria2
+  server: hktv04.outleft-hy.xyz
+  port: 543
+  sni: hktv04.outleft-hy.xyz
+  up: 700
+  down: 700
   skip-cert-verify: false
   password: 34723e50-5154-487e-9d5c-d34735d5b05b
   obfs: salamander
@@ -56,126 +67,126 @@ proxies:
   cipher: aes-128-gcm
   password: 34723e50-5154-487e-9d5c-d34735d5b05b
   udp: true
-- name: '[天空加速器] 🇭🇰 香港 04'
-  type: ss
-  server: cnexhk.nesx.xyz
-  port: 563
-  cipher: aes-128-gcm
-  password: 34723e50-5154-487e-9d5c-d34735d5b05b
-  udp: true
 - name: '[天空加速器] 🇭🇰 香港 05'
   type: ss
   server: cnexhk.nesx.xyz
-  port: 564
+  port: 563
   cipher: aes-128-gcm
   password: 34723e50-5154-487e-9d5c-d34735d5b05b
   udp: true
 - name: '[天空加速器] 🇭🇰 香港 06'
   type: ss
   server: cnexhk.nesx.xyz
-  port: 565
+  port: 564
   cipher: aes-128-gcm
   password: 34723e50-5154-487e-9d5c-d34735d5b05b
   udp: true
 - name: '[天空加速器] 🇭🇰 香港 07'
+  type: ss
+  server: cnexhk.nesx.xyz
+  port: 565
+  cipher: aes-128-gcm
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  udp: true
+- name: '[天空加速器] 🇭🇰 香港 08'
   type: ss
   server: cmrefhk1.exitlag.xyz
   port: 563
   cipher: aes-128-gcm
   password: 34723e50-5154-487e-9d5c-d34735d5b05b
   udp: true
-- name: '[天空加速器] 🇭🇰 香港 08'
-  type: ss
-  server: cmlayer2.exitlag.xyz
-  port: 564
-  cipher: aes-128-gcm
-  password: 34723e50-5154-487e-9d5c-d34735d5b05b
-  udp: true
 - name: '[天空加速器] 🇭🇰 香港 09'
   type: ss
-  server: cnrefhk2.exitlag.xyz
+  server: cmlayer2.exitlag.xyz
   port: 564
   cipher: aes-128-gcm
   password: 34723e50-5154-487e-9d5c-d34735d5b05b
   udp: true
 - name: '[天空加速器] 🇭🇰 香港 10'
   type: ss
+  server: cnrefhk2.exitlag.xyz
+  port: 564
+  cipher: aes-128-gcm
+  password: 34723e50-5154-487e-9d5c-d34735d5b05b
+  udp: true
+- name: '[天空加速器] 🇭🇰 香港 11'
+  type: ss
   server: cminit.exitlag.xyz
   port: 565
   cipher: aes-128-gcm
   password: 34723e50-5154-487e-9d5c-d34735d5b05b
   udp: true
-- name: '[天空加速器] 🇭🇰 香港 11'
+- name: '[天空加速器] 🇭🇰 香港 12'
   type: ss
   server: cmthkd-d.net-lag.xyz
   port: 563
   cipher: aes-128-gcm
   password: 34723e50-5154-487e-9d5c-d34735d5b05b
   udp: true
-- name: '[天空加速器] 🇭🇰 香港 12'
+- name: '[天空加速器] 🇭🇰 香港 13'
   type: ss
   server: cmrefhk1.exitlag.xyz
   port: 564
   cipher: aes-128-gcm
   password: 34723e50-5154-487e-9d5c-d34735d5b05b
   udp: true
-- name: '[天空加速器] 🇭🇰 香港 13'
+- name: '[天空加速器] 🇭🇰 香港 14'
   type: ss
   server: cminit.exitlag.xyz
   port: 566
   cipher: aes-128-gcm
   password: 34723e50-5154-487e-9d5c-d34735d5b05b
   udp: true
-- name: '[天空加速器] 🇭🇰 香港 14'
+- name: '[天空加速器] 🇭🇰 香港 15'
   type: ss
   server: rcgm.exitlag.xyz
   port: 563
   cipher: aes-128-gcm
   password: 34723e50-5154-487e-9d5c-d34735d5b05b
   udp: true
-- name: '[天空加速器] 🇭🇰 香港 15'
+- name: '[天空加速器] 🇭🇰 香港 16'
   type: ss
   server: rcgm.exitlag.xyz
   port: 564
   cipher: aes-128-gcm
   password: 34723e50-5154-487e-9d5c-d34735d5b05b
   udp: true
-- name: '[天空加速器] 🇭🇰 香港 16'
+- name: '[天空加速器] 🇭🇰 香港 17'
   type: ss
   server: cminit.exitlag.xyz
   port: 567
   cipher: aes-128-gcm
   password: 34723e50-5154-487e-9d5c-d34735d5b05b
   udp: true
-- name: '[天空加速器] 🇭🇰 香港 17'
+- name: '[天空加速器] 🇭🇰 香港 18'
   type: ss
   server: cmthkd-d.net-lag.xyz
   port: 564
   cipher: aes-128-gcm
   password: 34723e50-5154-487e-9d5c-d34735d5b05b
   udp: true
-- name: '[天空加速器] 🇭🇰 香港 18'
+- name: '[天空加速器] 🇭🇰 香港 19'
   type: ss
   server: cnrefhk2.exitlag.xyz
   port: 565
   cipher: aes-128-gcm
   password: 34723e50-5154-487e-9d5c-d34735d5b05b
   udp: true
-- name: '[天空加速器] 🇭🇰 香港 19'
+- name: '[天空加速器] 🇭🇰 香港 20'
   type: ss
   server: cmlayer2.exitlag.xyz
   port: 565
   cipher: aes-128-gcm
   password: 34723e50-5154-487e-9d5c-d34735d5b05b
   udp: true
-- name: '[天空加速器] 🇭🇰 香港 20'
+- name: '[天空加速器] 🇭🇰 香港 21'
   type: ss
   server: cmthkd-d.net-lag.xyz
   port: 565
   cipher: aes-128-gcm
   password: 34723e50-5154-487e-9d5c-d34735d5b05b
   udp: true
-- name: '[天空加速器] 🇭🇰 香港 21'
+- name: '[天空加速器] 🇭🇰 香港 22'
   type: ss
   server: shcmzz1hk.upperlay.xyz
   port: 562
@@ -357,9 +368,9 @@ proxy-groups:
   - '[天空加速器] 🇭🇰 香港 01'
   - '[天空加速器] 🇭🇰 香港 02'
   - '[天空加速器] 🇭🇰 香港 03'
+  - '[天空加速器] 🇭🇰 香港 04'
   - '[天空加速器] 🇷🇺 俄罗斯 01'
   - '[天空加速器] 🇷🇺 俄罗斯 02'
-  - '[天空加速器] 🇭🇰 香港 04'
   - '[天空加速器] 🇭🇰 香港 05'
   - '[天空加速器] 🇭🇰 香港 06'
   - '[天空加速器] 🇭🇰 香港 07'
@@ -377,6 +388,7 @@ proxy-groups:
   - '[天空加速器] 🇭🇰 香港 19'
   - '[天空加速器] 🇭🇰 香港 20'
   - '[天空加速器] 🇭🇰 香港 21'
+  - '[天空加速器] 🇭🇰 香港 22'
   - '[天空加速器] 🇯🇵 日本 01'
   - '[天空加速器] 🇯🇵 日本 02'
   - '[天空加速器] 🇸🇬 新加坡 01'
@@ -409,9 +421,9 @@ proxy-groups:
   - '[天空加速器] 🇭🇰 香港 01'
   - '[天空加速器] 🇭🇰 香港 02'
   - '[天空加速器] 🇭🇰 香港 03'
+  - '[天空加速器] 🇭🇰 香港 04'
   - '[天空加速器] 🇷🇺 俄罗斯 01'
   - '[天空加速器] 🇷🇺 俄罗斯 02'
-  - '[天空加速器] 🇭🇰 香港 04'
   - '[天空加速器] 🇭🇰 香港 05'
   - '[天空加速器] 🇭🇰 香港 06'
   - '[天空加速器] 🇭🇰 香港 07'
@@ -429,6 +441,7 @@ proxy-groups:
   - '[天空加速器] 🇭🇰 香港 19'
   - '[天空加速器] 🇭🇰 香港 20'
   - '[天空加速器] 🇭🇰 香港 21'
+  - '[天空加速器] 🇭🇰 香港 22'
   - '[天空加速器] 🇯🇵 日本 01'
   - '[天空加速器] 🇯🇵 日本 02'
   - '[天空加速器] 🇸🇬 新加坡 01'
